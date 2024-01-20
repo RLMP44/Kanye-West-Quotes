@@ -1,0 +1,67 @@
+body {
+  background-image: url(vinyl\ album.png);
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#kanye-button {
+  justify-self: center;
+  background: url(kanye.png) no-repeat;
+  background-position: center;
+  border-radius: 15%;
+  height: 9em;
+  width: 8em;
+  padding: 2em;
+
+}
+
+#kanye-button:hover {
+  transform: rotate(-5deg);
+  transition: .5s;
+  cursor: pointer;
+}
+
+.quotes-section {
+  text-align: center;
+  display: grid;
+  width: 400px;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+}
+
+p {
+  margin: 3em 1.5em;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  display: inline-block;
+  align-self: center;
+}
+
+h1 {
+  color: white;
+}
+
+.quotes-container {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  background: url(background.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 440px;
+  width: 300px;
+  filter: drop-shadow(0 0 0.75rem rgba(251,213,58,0.7));
+}
+
+@media (max-width: 340) {
+  .quotes-container {
+    height: 400px;
+    width: 300px;
+  }
+}
