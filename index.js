@@ -15,3 +15,8 @@ function import_quote() {
       document.getElementById('quote').textContent = data.quote;
   })
 }
+
+function click_sound() {
+  var audio = new Audio('click.mp3');
+  audio.play();
+}
